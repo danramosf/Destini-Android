@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 }else if(mStoryIndex == 3){
                     //T3
                     mTextView.setText(R.string.T6_End);
-                    mButtonTop.setText("");
-                    mButtonBottom.setText("");
+                    mButtonTop.setVisibility(View.GONE);
+                    mButtonBottom.setVisibility(View.GONE);
                     mStoryIndex = 6;
 
                 }
@@ -59,14 +59,14 @@ public class MainActivity extends AppCompatActivity {
                 }else if(mStoryIndex == 2){
                     //T2
                     mTextView.setText(R.string.T4_End);
-                    mButtonTop.setText("");
-                    mButtonBottom.setText("");
+                    mButtonTop.setVisibility(View.GONE);
+                    mButtonBottom.setVisibility(View.GONE);
                     mStoryIndex = 4;
                 }else if(mStoryIndex == 3){
                     //T3
                     mTextView.setText(R.string.T5_End);
-                    mButtonTop.setText("");
-                    mButtonBottom.setText("");
+                    mButtonTop.setVisibility(View.GONE);
+                    mButtonBottom.setVisibility(View.GONE);
                     mStoryIndex = 5;
                 }
             }
