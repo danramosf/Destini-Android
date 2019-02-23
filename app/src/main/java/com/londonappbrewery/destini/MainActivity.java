@@ -10,10 +10,10 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     // TODO: Steps 4 & 8 - Declare member variables here:
-    TextView mTextView;
-    Button mButtonTop;
-    Button mButtonBottom;
-    int mStoryIndex = 1;
+    private TextView mTextView;
+    private Button mButtonTop;
+    private Button mButtonBottom;
+    private int mStoryIndex = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
